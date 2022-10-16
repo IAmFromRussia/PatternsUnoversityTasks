@@ -4,16 +4,7 @@
     <projectFile>PatternTask/PatternTask.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45d1848a-7408-45f8-9e8d-c0c5a7b609be" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/PatternTask/Calculations/ICurrentPercent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PatternTask/InfoTemplates/InfoTypeAbs.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PatternTask/StreamProcesses/StreamProgressInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PatternTask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PatternTask/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PatternTask/File.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PatternTask/InformationTypes/File.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PatternTask/Music.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PatternTask/InformationTypes/Music.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PatternTask/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PatternTask/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PatternTask/StreamProgressInfo.cs" beforeDir="false" />
-    </list>
+    <list default="true" id="45d1848a-7408-45f8-9e8d-c0c5a7b609be" name="Changes" comment="Changed constructor to protected" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +12,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,7 +40,25 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.PatternTask">
+    <configuration name="GraficEditor" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/GraficEditor/GraficEditor.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="PatternTask" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -52,7 +67,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/PatternTask/PatternTask.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/StreamProgress/StreamProgress.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
@@ -71,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665927261810</updated>
-      <workItem from="1665927267469" duration="3714000" />
+      <workItem from="1665927267469" duration="4330000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1665927321350</created>
@@ -87,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665927333754</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Refactored">
+      <created>1665950468363</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665950468363</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Changed constructor to protected">
+      <created>1665950630559</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665950630559</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,25 +138,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/PatternTask/StreamProcesses/StreamProgressInfo.cs</url>
-          <line>14</line>
-          <properties documentPath="C:\Users\79021\RiderProjects\PatternTask\PatternTask\StreamProcesses\StreamProgressInfo.cs" initialLine="14" containingFunctionPresentation="method 'CalculateCurrentPercent'">
-            <startOffsets>
-              <option value="287" />
-            </startOffsets>
-            <endOffsets>
-              <option value="288" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Refactored" />
+    <MESSAGE value="Changed constructor to protected" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed constructor to protected" />
   </component>
 </project>
