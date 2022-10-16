@@ -2,10 +2,10 @@
 
 public abstract class InfoType
 {
-    public int Length { get; set; }
-    public int BytesSent { get; set; }
+    public int Length { get; }
+    public int BytesSent { get; }
 
-    public InfoType(int length, int bytesSent)
+    protected InfoType(int length, int bytesSent)
     {
         Length = length;
         BytesSent = bytesSent;
