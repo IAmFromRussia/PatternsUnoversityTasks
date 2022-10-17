@@ -1,3 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-Console.WriteLine("Hello, World!");
+﻿namespace P02.Graphic_Editor
+{
+    internal class Program
+    {
+        private static void Main()
+        {
+            
+        }
+    }
+}
