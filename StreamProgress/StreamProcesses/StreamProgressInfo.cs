@@ -1,19 +1,22 @@
 ﻿using P01.Stream_Progress;
-using PatternTask.InfoTemplates;
 
 namespace PatternTask.StreamProcesses;
 
-public class StreamProgressInfo : ICurrentPercent
+public class StreamProgressInfo : IStream
 {
-    private readonly InfoType _type;
+    private readonly IFile _file;
+    private readonly int _bytesSent;
 
-    public StreamProgressInfo(InfoType type)
+    public StreamProgressInfo(IFile file, int bytesSent)
     {
-        _type = type;
+        _file = file;
+        _bytesSent = bytesSent;
     }
     
     public int CalculateCurrentPercent()
     {
-        return _type.BytesSent * 100 / _type.Length;
+        return _bytesSent * 100 / _file.GetLength();
     }
+
+    public int GetBytesSent() => _bytesSent;
 }

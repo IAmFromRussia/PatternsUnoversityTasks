@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamProgress", "StreamPro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraficEditor", "GraficEditor\GraficEditor.csproj", "{2862C481-BE89-413D-845C-24D11E5ED2CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetailPrinter", "DetailPrinter\DetailPrinter.csproj", "{E1A07AAD-222D-4753-8135-2AFC21957DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerConsole", "LoggerConsole\LoggerConsole.csproj", "{E6C4AD2F-74B9-4940-98B1-7E0D96CBE635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerLibrary", "LoggerLibrary\LoggerLibrary.csproj", "{AF80E2DF-891B-45D9-A68D-016CC44EA943}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +24,17 @@ Global
 		{2862C481-BE89-413D-845C-24D11E5ED2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2862C481-BE89-413D-845C-24D11E5ED2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2862C481-BE89-413D-845C-24D11E5ED2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A07AAD-222D-4753-8135-2AFC21957DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A07AAD-222D-4753-8135-2AFC21957DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A07AAD-222D-4753-8135-2AFC21957DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A07AAD-222D-4753-8135-2AFC21957DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C4AD2F-74B9-4940-98B1-7E0D96CBE635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C4AD2F-74B9-4940-98B1-7E0D96CBE635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C4AD2F-74B9-4940-98B1-7E0D96CBE635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C4AD2F-74B9-4940-98B1-7E0D96CBE635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF80E2DF-891B-45D9-A68D-016CC44EA943}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF80E2DF-891B-45D9-A68D-016CC44EA943}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF80E2DF-891B-45D9-A68D-016CC44EA943}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF80E2DF-891B-45D9-A68D-016CC44EA943}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

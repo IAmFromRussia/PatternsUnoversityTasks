@@ -6,11 +6,11 @@ namespace P01.Stream_Progress
     {
         private static void Main()
         {
-            var file = new File("unnamed", 1024, 3000);
-            var music = new Music("Michael Jackson", "Billie Jean", 2048, 6023);
+            var file = new File("unnamed", 1024);
+            var music = new Music("Michael Jackson", "Billie Jean", 2048);
 
-            var processFile = new StreamProgressInfo(file);
-            var processMusic = new StreamProgressInfo(music);
+            var processFile = new StreamProgressInfo(file, 3000);
+            var processMusic = new StreamProgressInfo(music, 6543);
 
             Console.WriteLine($"File - {processFile.CalculateCurrentPercent()}");
             Console.WriteLine($"File - {processMusic.CalculateCurrentPercent()}");

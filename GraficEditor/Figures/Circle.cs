@@ -2,5 +2,6 @@
 {
     public class Circle : IShape
     {
+        public void DrawShape() => Console.WriteLine("I'm Circle");
     }
 }
